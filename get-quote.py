@@ -1,6 +1,10 @@
 import random
 
 def main():
+<<<<<<< HEAD
+=======
+  print("Keep it logically awesome.")
+>>>>>>> origin
 
   f = open("quotes.txt")
   quotes = f.readlines()
@@ -11,5 +15,5 @@ def main():
 
   print(quotes[rnd])
 
-if __name__== "__main__":
+    if __name__== "__main__":
   main()
